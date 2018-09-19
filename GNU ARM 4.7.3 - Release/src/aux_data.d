@@ -65,11 +65,11 @@ src/aux_data.o: ../src/aux_data.c ../src/aux_data.h ../src/config_efm32.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/EFM32GG_STK3700/config/segmentlcdconfig.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_lcd.h \
  ../src/dn_fsm.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_ipmt.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_common.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_endianness.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_version.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_build.h
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h
 
 ../src/aux_data.h:
 
@@ -207,12 +207,12 @@ C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_lcd.h:
 
 ../src/dn_fsm.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_ipmt.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_common.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_endianness.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_version.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_build.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h:

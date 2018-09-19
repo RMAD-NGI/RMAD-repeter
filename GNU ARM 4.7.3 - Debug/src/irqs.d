@@ -63,15 +63,15 @@ src/irqs.o: ../src/irqs.c \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_rtc.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_burtc.h \
  ../src/irqs.h ../src/config_efm32.h ../src/dn_fsm.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_ipmt.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_common.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_endianness.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_version.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_build.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/common/drivers/segmentlcd.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/EFM32GG_STK3700/config/segmentlcdconfig.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_lcd.h \
- C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_hdlc.h \
+ C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_hdlc.h \
  ../src/aux_data.h ../src/lcd.h
 
 C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_gpio.h:
@@ -206,15 +206,15 @@ C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_burtc.h:
 
 ../src/dn_fsm.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_ipmt.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_common.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_endianness.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_version.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_clib_build.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h:
 
 C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/common/drivers/segmentlcd.h:
 
@@ -222,7 +222,7 @@ C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/EFM32GG_STK3700/
 
 C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_lcd.h:
 
-C:\Users\yk\SimplicityStudio\v3_workspace\RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2\sm_clib/dn_hdlc.h:
+C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_hdlc.h:
 
 ../src/aux_data.h:
 
