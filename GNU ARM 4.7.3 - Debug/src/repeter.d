@@ -61,12 +61,12 @@ src/repeter.o: ../src/repeter.c \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_emu.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_wdog.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_gpio.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_hdlc.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_hdlc.h \
  ../src/config_efm32.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_acmp.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_adc.h \
@@ -200,17 +200,17 @@ C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_wdog.h:
 
 C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_gpio.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_hdlc.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_hdlc.h:
 
 ../src/config_efm32.h:
 

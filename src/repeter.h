@@ -46,7 +46,6 @@ enum { // In, from PC to MCU
                                 // (needed for parameter to take effekt). In the mote is really down (not just the network),
                                 // this will in effect be a delay, and the backup radio will also in this case be "enabled".
     IMSG_AUX_INTERVAL	= 11,	// takes an uint16_t as payload, sets the reporting interval in minutes for AUX sensor data.
-    IMSG_EXT_REBOOT         = 12, // pull external reboot pin low. No payload.
 };
 
 enum {

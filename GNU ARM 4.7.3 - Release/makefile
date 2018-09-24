@@ -28,31 +28,31 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2.axf
+all: RMAD-repeter.axf
 
 # Tool invocations
-RMAD\ repeter\ -\ smartmeshIP\ -\ hw5\ -\ sw2.axf: $(OBJS) $(USER_OBJS)
+RMAD-repeter.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM C Linker'
-	arm-none-eabi-gcc -g -gdwarf-2 -mcpu=cortex-m3 -mthumb -T "RMAD repeter - smartmeshIP - hw5 - sw2.ld" -Xlinker --gc-sections -Xlinker -Map="RMAD repeter - smartmeshIP - hw5 - sw2.map" --specs=nano.specs -o "RMAD repeter - smartmeshIP - hw5 - sw2.axf" "./src/aux_data.o" "./src/burtc_timer.o" "./src/dn_fsm.o" "./src/irqs.o" "./sm_clib/dn_hdlc.o" "./sm_clib/dn_ipmg.o" "./sm_clib/dn_ipmt.o" "./sm_clib/dn_serial_mg.o" "./sm_clib/dn_serial_mt.o" "./sm_clib/dn_whmt.o" "./emlib/em_acmp.o" "./emlib/em_adc.o" "./emlib/em_assert.o" "./emlib/em_burtc.o" "./emlib/em_cmu.o" "./emlib/em_dac.o" "./emlib/em_dma.o" "./emlib/em_ebi.o" "./emlib/em_emu.o" "./emlib/em_gpio.o" "./emlib/em_int.o" "./emlib/em_lcd.o" "./emlib/em_leuart.o" "./emlib/em_msc.o" "./emlib/em_rmu.o" "./emlib/em_rtc.o" "./emlib/em_system.o" "./emlib/em_usart.o" "./emlib/em_wdog.o" "./Drivers/dmactrl.o" "./Drivers/nandflash.o" "./Drivers/retargetio.o" "./Drivers/segmentlcd.o" "./CMSIS/efm32gg/startup_gcc_efm32gg.o" "./CMSIS/efm32gg/system_efm32gg.o" "./BSP/bsp_bcc.o" "./BSP/bsp_stk.o" "./BSP/bsp_trace.o" -lm "./src/config_efm32.o" "./src/lcd.o" "./src/repeter.o" "./sm_clib/dn_endianness.o" "./sm_clib/dn_lock.o" "./sm_clib/dn_uart.o" "./emlib/em_aes.o" "./emlib/em_cryotimer.o" "./emlib/em_crypto.o" "./emlib/em_dbg.o" "./emlib/em_gpcrc.o" "./emlib/em_i2c.o" "./emlib/em_idac.o" "./emlib/em_ldma.o" "./emlib/em_lesense.o" "./emlib/em_letimer.o" "./emlib/em_mpu.o" "./emlib/em_opamp.o" "./emlib/em_pcnt.o" "./emlib/em_prs.o" "./emlib/em_rtcc.o" "./emlib/em_timer.o" "./emlib/em_vcmp.o" "./Drivers/norflash.o" -Wl,--start-group -lgcc -lc -lnosys -Wl,--end-group
+	arm-none-eabi-gcc -g -gdwarf-2 -mcpu=cortex-m3 -mthumb -T "RMAD-repeter.ld" -Xlinker --gc-sections -Xlinker -Map="RMAD-repeter.map" --specs=nano.specs -o RMAD-repeter.axf "./src/aux_data.o" "./src/burtc_timer.o" "./src/dn_fsm.o" "./src/irqs.o" "./sm_clib/dn_hdlc.o" "./sm_clib/dn_ipmg.o" "./sm_clib/dn_ipmt.o" "./sm_clib/dn_serial_mg.o" "./sm_clib/dn_serial_mt.o" "./sm_clib/dn_whmt.o" "./emlib/em_acmp.o" "./emlib/em_adc.o" "./emlib/em_assert.o" "./emlib/em_burtc.o" "./emlib/em_cmu.o" "./emlib/em_dac.o" "./emlib/em_dma.o" "./emlib/em_ebi.o" "./emlib/em_emu.o" "./emlib/em_gpio.o" "./emlib/em_int.o" "./emlib/em_lcd.o" "./emlib/em_leuart.o" "./emlib/em_msc.o" "./emlib/em_rmu.o" "./emlib/em_rtc.o" "./emlib/em_system.o" "./emlib/em_usart.o" "./emlib/em_wdog.o" "./Drivers/dmactrl.o" "./Drivers/nandflash.o" "./Drivers/retargetio.o" "./Drivers/segmentlcd.o" "./CMSIS/efm32gg/startup_gcc_efm32gg.o" "./CMSIS/efm32gg/system_efm32gg.o" "./BSP/bsp_bcc.o" "./BSP/bsp_stk.o" "./BSP/bsp_trace.o" -lm "./src/config_efm32.o" "./src/lcd.o" "./src/repeter.o" "./sm_clib/dn_endianness.o" "./sm_clib/dn_lock.o" "./sm_clib/dn_uart.o" "./emlib/em_aes.o" "./emlib/em_cryotimer.o" "./emlib/em_crypto.o" "./emlib/em_dbg.o" "./emlib/em_gpcrc.o" "./emlib/em_i2c.o" "./emlib/em_idac.o" "./emlib/em_ldma.o" "./emlib/em_lesense.o" "./emlib/em_letimer.o" "./emlib/em_mpu.o" "./emlib/em_opamp.o" "./emlib/em_pcnt.o" "./emlib/em_prs.o" "./emlib/em_rtcc.o" "./emlib/em_timer.o" "./emlib/em_vcmp.o" "./Drivers/norflash.o" -Wl,--start-group -lgcc -lc -lnosys -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-	@echo 'Building hex file: RMAD repeter - smartmeshIP - hw5 - sw2.hex'
-	arm-none-eabi-objcopy -O ihex "RMAD repeter - smartmeshIP - hw5 - sw2.axf" "RMAD repeter - smartmeshIP - hw5 - sw2.hex"
+	@echo 'Building hex file: RMAD-repeter.hex'
+	arm-none-eabi-objcopy -O ihex "RMAD-repeter.axf" "RMAD-repeter.hex"
 	@echo ' '
 
-	@echo 'Building bin file: RMAD repeter - smartmeshIP - hw5 - sw2.bin'
-	arm-none-eabi-objcopy -O binary "RMAD repeter - smartmeshIP - hw5 - sw2.axf" "RMAD repeter - smartmeshIP - hw5 - sw2.bin"
+	@echo 'Building bin file: RMAD-repeter.bin'
+	arm-none-eabi-objcopy -O binary "RMAD-repeter.axf" "RMAD-repeter.bin"
 	@echo ' '
 
 	@echo 'Running size tool'
-	arm-none-eabi-size "RMAD repeter - smartmeshIP - hw5 - sw2.axf"
+	arm-none-eabi-size "RMAD-repeter.axf"
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) "RMAD repeter - smartmeshIP - hw5 - sw2.axf"
+	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) RMAD-repeter.axf
 	-@echo ' '
 
 .PHONY: all clean dependents

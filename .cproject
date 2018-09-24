@@ -193,32 +193,6 @@
 							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1588542864" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
 						</toolChain>
 					</folderInfo>
-					<folderInfo id="com.silabs.ide.si32.gcc.debug#com.silabs.ide.si32.gcc:4.7.3.20130312.1225913759" name="/" resourcePath="sm_clib">
-						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.1652856083" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" unusedChildren="">
-							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.485281222.1733316045" name="Debug Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.485281222"/>
-							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.prof.380337061.555361728" name="Generate prof information (-p)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.prof.380337061"/>
-							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.gprof.2089003686.302342429" name="Generate gprof information (-pg)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.gprof.2089003686"/>
-							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
-							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.66934914" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.185879727">
-								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.918298721" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
-							</tool>
-							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.532682555" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.1008908675"/>
-							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.2000811532" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.1730191776">
-								<option id="gnu.both.asm.option.include.paths.1130760941" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/CMSIS/Include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/emlib/inc&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/kits/common/bsp&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/kits/common/drivers&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Device/SiliconLabs/EFM32GG/Include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/kits/EFM32GG_STK3700/config&quot;"/>
-								</option>
-								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.137221290" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
-							</tool>
-							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.1129415436" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.419372823"/>
-							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1234747067" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1955226200"/>
-							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.2104960465" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1588542864"/>
-						</toolChain>
-					</folderInfo>
 					<folderInfo id="com.silabs.ide.si32.gcc.debug#com.silabs.ide.si32.gcc:4.7.3.20130312.1991481107" name="/" resourcePath="src">
 						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.1524738429" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" unusedChildren="">
 							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.485281222.62129787" name="Debug Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.485281222"/>
@@ -253,6 +227,32 @@
 							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.440066323" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.419372823"/>
 							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.818709610" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1955226200"/>
 							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1949821261" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1588542864"/>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="com.silabs.ide.si32.gcc.debug#com.silabs.ide.si32.gcc:4.7.3.20130312.1225913759" name="/" resourcePath="sm_clib">
+						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.1652856083" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe" unusedChildren="">
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.485281222.1733316045" name="Debug Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.485281222"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.prof.380337061.555361728" name="Generate prof information (-p)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.prof.380337061"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.gprof.2089003686.302342429" name="Generate gprof information (-pg)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.gprof.2089003686"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.66934914" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.185879727">
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.918298721" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.532682555" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.1008908675"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.2000811532" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.1730191776">
+								<option id="gnu.both.asm.option.include.paths.1130760941" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/emlib/inc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/kits/common/bsp&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/kits/common/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/Device/SiliconLabs/EFM32GG/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${StudioSdkPath}/kits/EFM32GG_STK3700/config&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.137221290" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.1129415436" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.419372823"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1234747067" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1955226200"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.2104960465" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1588542864"/>
 						</toolChain>
 					</folderInfo>
 					<folderInfo id="com.silabs.ide.si32.gcc.debug#com.silabs.ide.si32.gcc:4.7.3.20130312.1030034690" name="/" resourcePath="emlib">

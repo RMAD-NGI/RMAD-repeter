@@ -1,9 +1,9 @@
 src/dn_fsm.o: ../src/dn_fsm.c ../src/dn_fsm.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h \
- C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h \
+ C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/common/drivers/segmentlcd.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/EFM32GG_STK3700/config/segmentlcdconfig.h \
  C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/emlib/inc/em_lcd.h \
@@ -71,15 +71,15 @@ src/dn_fsm.o: ../src/dn_fsm.c ../src/dn_fsm.h \
 
 ../src/dn_fsm.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_ipmt.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_common.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_endianness.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_version.h:
 
-C:\Users\Lillestua\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h:
+C:\Users\yk\Documents\GitHub\RMAD-repeter\sm_clib/dn_clib_build.h:
 
 C:/SiliconLabs/SimplicityStudio/v3/developer/sdks/efm32/v2/kits/common/drivers/segmentlcd.h:
 
